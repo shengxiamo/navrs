@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bevy = "0.14.2"
+bevy = {version = "0.14.2", default-features = false, features = ["bevy_asset", "bevy_winit"]}
 bevy_egui = "0.30.0"
 crossbeam-channel = "0.5.15"
 parking_lot = "0.12.5"
